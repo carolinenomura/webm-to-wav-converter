@@ -45,6 +45,14 @@ Execute o script diretamente no ambiente do pipenv.
 pipenv run python converter.py
 ```
 
+## Troubleshooting
+### TclError: Can't find a usable init.tcl
+
+Se aparecer a mensagem de erro "This probably means Tcl wasn't installed properly", siga os seguintes passos:
+
+1. Vá até o caminho de instalação do seu Python (por exemplo, C:\Users\user\AppData\Local\Programs\Python) e selecione a pasta com a versão do Python que você está usando.
+2. Mova as pastas tcl8.6 e tk8.6 (ou tcl8.x e tk8.x, dependendo da sua versão) da pasta tcl para a pasta Lib e execute novamente.
+
 ## Instruções de Uso
 
 ### Ao executar o script, você será solicitado a selecionar:
