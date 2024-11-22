@@ -9,7 +9,7 @@ Este script em Python permite converter arquivos de áudio no formato .webm de u
 - Inclui uma cópia local do ffmpeg para simplificar o uso.
 
 ## Requisitos
-- Python 3
+- Instalar o [Python 3](https://www.python.org/downloads/)
 - Adicionar Python à variável PATH
 
 ## Instalação
